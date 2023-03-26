@@ -1,0 +1,82 @@
+table.wysiwyg-macro[data-macro-name="rtl"] {
+  direction: rtl;
+  text-align: justify;
+}
+
+table.wysiwyg-macro[data-macro-name="ltr"] {
+  direction: ltr;
+  text-align: initial;
+}
+
+.conf-macro.output-inline[data-macro-name="ltr"] {
+  direction: ltr;
+  text-align: initial;
+}
+
+table.wysiwyg-macro[data-macro-name="code"] {
+  direction: ltr;
+  text-align: initial;
+}
+
+.conf-macro.output-block[data-macro-name="drawio"] {
+  text-align: center;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v26.0.2/dist/Vazir.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Vazir Code";
+  src: url('https://cdn.rawgit.com/rastikerdar/vazir-code-font/v1.1.2/dist/Vazir-Code.ttf') format('truetype');
+}
+
+#title-text, .wiki-content {
+  font-family: Vazir;
+}
+
+.wiki-content {
+  text-align: right !important;
+  direction: rtl;
+  /* text-indent: 1em; */
+}
+
+code {
+  font-family: "Vazir Code";
+  background: rgba(0,0,0,0.03);
+  border: 1px solid #dfe1e5;
+  border-radius: 3px;
+  padding: 1px 6px;
+}
+
+#title-text {
+  direction: rtl;
+}
+
+#content-title-div {
+  direction: rtl;
+}
+
+#main-content {
+  direction: rtl;
+}
+
+
+.auto-cursor-target {
+  direction: rtl;
+  text-align: justify;
+}
+
+.conf-macro.output-block {
+  direction: ltr;
+}
+
+.toc-macro {
+  direction: rtl !important;
+}
+
+ul.inline-task-list > li {
+  background-position-x: right !important;
+  padding-right: 20px;
+}
