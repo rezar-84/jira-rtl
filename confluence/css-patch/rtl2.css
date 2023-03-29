@@ -1,0 +1,453 @@
+/* Version 2.5 */
+/* css added by Mehdi Heidari ... mehdi.h1369@gmail.com */
+@font-face {
+  font-family: "Vazir";
+  src: url("./fonts/Vazir.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Vazir.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Vazir.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Vazir.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Vazir.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Vazir.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Vazir.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.cdnfonts.com/css/iranian-sans');
+@import url('https://v1.fontapi.ir/css/Yekan');
+
+
+body{
+font-family: 'Yekan','Iranian Sans',Arial, sans-serif;
+line-height: 1.3 em;
+color:#444;
+overflow-x :hidden;
+}
+
+
+
+.conf-macro.output-block[data-macro-name="drawio"] {
+  text-align: center;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v26.0.2/dist/Vazir.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Vazir Code";
+  src: url('https://cdn.rawgit.com/rastikerdar/vazir-code-font/v1.1.2/dist/Vazir-Code.ttf') format('truetype');
+}
+
+#title-text, .wiki-content {
+  font-family: Vazir;
+}
+
+
+code {
+  font-family: "Vazir Code";
+  background: rgba(0,0,0,0.03);
+  border: 1px solid #dfe1e5;
+  border-radius: 3px;
+  padding: 1px 6px;
+}
+
+ul.contributors-list li{
+line-height: 1.8 rem;
+}
+
+.ia-fixed-sidebar div.plugin_pagetree ul.plugin_pagetree_children_list .plugin_pagetree_children_span{
+line-height:1.5em;
+font-size:0.825 rem;
+}
+
+
+
+
+
+*:not(.mce-ico) {
+	font-family:Vazir,"Segoe UI" , tahoma !important;
+}
+
+#mw-container .drilldown-title,
+.aui-page-panel-content.one-panel .search-results,
+.search-results-container,
+.search-blanket,
+.list-container-popular-stream .stream-item-heading-link,
+body#tinymce.page-edit,
+body#tinymce.template-editor,
+body.mceContentBody {
+    direction: rtl;
+    font-family: Vazir,'Segoe UI', 'IranSans', 'Iran', 'Droid Arabic Naskh', Tahoma, sans-serif;
+}
+.markdown {
+    word-wrap: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+}
+time:before {
+	content: '\200F'
+}
+
+/* ltr profile pages */
+.profile-page > div > div > form > .wiki-content,.profile-page > div > div > .wiki-content {
+direction: ltr;
+text-align: left;
+
+}
+.user-profile .content-navigation .ajs-menu-bar {
+    float: left;
+}
+.code, code, [data-macro-name="code"],
+.wiki-content .wysiwyg-macro-body>pre {
+    direction: ltr;
+    text-align: left;
+}
+#search-results-meta {
+    direction: ltr;
+    text-align: right;
+}
+
+.mytasks,
+ul.inline-task-list {
+    direction: ltr;
+}.recently-updated-concise .update-item-content {
+    padding-right: 21px;
+    padding-left: 0;
+}
+#mw-container .drilldown-header-title {
+    padding-left: 0;
+    padding-right: 5px;
+}
+#mw-container .drilldown-new-actions {
+    padding: 5px 10px 5px 0;
+    text-align: right;
+}
+
+#mw-container .mw-drilldown-item .mw-drilldown-excerpt {
+    direction: rtl;
+}
+.list-container-all-updates .update-items .update-item-content,
+.default-list-view .item-title,.update-item-details {
+    direction: rtl;
+    text-align: left;
+}
+#content-title {
+    height: 54px;
+    line-height: 54px;
+}
+.contenteditor #editor-precursor {
+    direction: rtl;
+}
+#editor-precursor .cell {
+    padding-left: 0;
+    padding-right: 30px;
+}
+#breadcrumbs li:before {
+    padding: 0 6px 0 2px;
+}
+#editor-precursor #breadcrumbs {
+    padding-left: 0;
+    padding-right: 10px;
+}
+#content-title-div {
+    padding: 0 10px 0 30px;
+    font-weight: 400;
+}
+#editor-precursor .aui-toolbar2 {
+    padding-right: 10px;
+    padding-left: 0;
+}
+body.mceContentBody {
+    direction: rtl;
+    text-align: right;
+    font-size: 14px;
+}
+#title-text {
+    font-size: 24px;
+}
+#main-header:not(.doctheme-no-override) #title-text {
+    padding-top: 10px;
+}
+.wiki-content,
+.confluenceTh,
+.confluenceTd,
+#comments-section .section-header {
+    direction: rtl;
+    text-align: right;
+}
+.wiki-content .header,
+.wiki-content .footer,
+.wiki-content .cell {
+    line-height: 26px;
+    font-size: 15px;
+}
+.wiki-content ul.inline-task-list>li {
+   line-height: 30px;
+    text-align: left;
+    direction: rtl;
+    padding-right: 18px;
+}
+.acs-side-bar-content,
+.aui-label {
+    direction: rtl;
+    text-align: left;
+}
+.aui-label {
+    line-height: 27px;
+}
+.wiki-content ul,
+.confluenceTable ol,
+.confluenceTable ul {
+    line-height: 24px;
+}
+.wiki-content ol,
+.wiki-content ol ol ol ol,
+.wiki-content ol ol ol ol ol ol ol,
+.wiki-content ol ol ol ol ol ol ol ol ol ol {
+    list-style-type: decimal;
+    list-style-type: arabic-indic;
+}
+.confluenceTable ol,
+.confluenceTable ul {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 22px;
+}
+.wiki-content time,
+.wiki-content .user-mention {
+    font-family: Vazir,Arial, sans-serif;
+}
+.comment .comment-user-logo {
+    margin: 0 0 0 10px;
+    float: right;
+}
+.quick-comment-body {
+    padding-right: 42px;
+    padding-left: 0;
+}
+.comment-body,
+.comment-header {
+    padding: 0 42px 0 0;
+}
+.aui-toolbar2 .aui-buttons {
+}
+#rte-savebar .aui-buttons {
+    margin-right: 0;
+    margin-left: 10px;
+}
+#rte-savebar .save-button-container {
+    float: right;
+    padding-left: 10px;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 10px;
+}
+ol.comment-threads.top-level {
+    padding-right: 0;
+}
+ol.comment-threads {
+    padding-left: 0;
+    padding-right: 40px;
+}
+#comments-section .comment.focused {
+    margin-right: -10px;
+    padding-right: 10px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.comment-body .comment-content.wiki-content {
+    padding-left: 20px;
+    padding-right: 0;
+}
+.comment-header .author {
+    text-align: right;
+}
+.comment-actions-primary li {
+    float: right;
+    direction: rtl;
+}
+.page-metadata ul li {
+    float: right;
+    padding: 0 0 0 5px;
+}
+#main {
+    padding-right: 40px;
+    padding-left: 20px;
+}
+#main #content {
+    padding-left: 20px;
+    padding-right: 0;
+}
+.wiki-content time{
+   display: inline-block;
+}            #main .icon-section-closed {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+div.plugin_pagetree ul.plugin_pagetree_children_list > li > div.plugin_pagetree_childtoggle_container {
+	float: right;
+}
+.plugin_pagetree .plugin_pagetree_children_list > li > .plugin_pagetree_children_content {
+	float: right;
+}
+.plugin_pagetree_children_span {
+	float: right;
+}
+.plugin_pagetree .plugin_pagetree_children_list > li .plugin_pagetree_children_list {
+	padding-right: 16px;
+	padding-left: unset;
+}
+div.plugin_pagetree .plugin_pagetree_childtoggle_container > .aui-icon {
+	transform: scaleX(-1);
+}
+.panel .panelContent p {
+   text-align: justify;
+}
+
+.plugin_pagetree_children {
+	text-align:right;
+	direction: rtl;
+}
+
+
+.aui-buttons.aui-toolbar2, #breadcrumbs {
+    float: left;
+    direction: ltr;
+}
+td > ol > li {
+margin-left:10px;
+}
+.wiki-content ul.inline-task-list > li{
+margin-left:10px !important;
+}
+
+.update-groupings >.grouping > .update-items > .update-item > .update-item-details {
+    direction: ltr;
+}
+
+.update-groupings >.grouping > .update-items > div  {
+   text-align: left;
+}
+.plugin-contributors{
+  direction: ltr;
+  text-align: left;
+}
+
+/* rtl sidebar menus */
+.acs-side-bar > .acs-side-bar-content > .acs-nav-wrapper > .acs-nav > .acs-nav-sections > .main-links-section > .acs-nav-list > .acs-nav-item > .acs-nav-item-link {
+    direction: ltr;
+}
+.sp-glossary-addTerm {
+    float: left;
+    direction: ltr;
+}
+
+.sp-macro-glossary-letter .sp-glossary-letters-container {
+    direction: ltr;
+}
+
+.terms-abbrs-container {
+    direction: ltr;
+}
+.wiki-content > .vf-slide-viewer-macro > .vf-slide-viewer > .vf-toolbar {
+    direction: ltr;
+    }
+.quick-links-wrapper > .quick-links-section {
+    direction: ltr;
+}
+.w-term-highlight {
+   font-weight: bold;
+   background-color: #ffffff !important;
+   color:  #0072ff;
+}
+.contentLayout2 > .columnLayout > .aside {
+    direction: ltr;
+    text-align: left;
+}
+.confluenceTable {
+	direction: ltr;
+    margin: 0 auto;
+}
+
+.calendar-layout, .sub-calendar-panel {
+	direction: ltr;
+	text-align: left;
+}
+
+
+/* css for Quize addon*/
+
+div[data-macro-name="quiz-answers-report"],div[data-macro-name="quiz-questions-report"],div[data-macro-name="quiz-settings"], table[data-macro-name="content-report-table"] , .course-settings{
+    direction: ltr;
+    text-align: left;
+}
+#buttons-container {
+	direction: rtl;
+	text-align: right;
+}
+
+
+/* css for Glossary addon */
+[data-macro-name="glossary-term-translations"],[data-macro-name="glossary-term-info"],[data-macro-name="glossary-list-terms"] {
+    direction: ltr;
+    text-align: left;
+}
+
+
+/* css for File list*/
+
+.plugin_attachments_container {
+	direction: ltr;
+	text-align: left;
+}
+
+
+/* disable rtl for macros*/
+[data-macro-name="content-report-table"],[data-macro-name="contentbylabel"] {
+	direction: ltr;
+	text-align: left;
+}
+
+/* Drow io css disavle rtl */
+[id^="drawio-macro-content"] {
+    direction: ltr;
+    text-align: left;
+}
+
+/* rtl  recently-updated macro*/
+.recently-updated-concise .update-item-content {
+    padding-right: 21px;
+}
+
+.update-item-icon {
+    float: right;
+}
+
+/* rtl search box macro*/
+[data-macro-name="livesearch"] {
+    text-align: left;
+    direction: ltr;
+}
+
+
+.search-macro-button > span.aui-icon {
+    direction: ltr;
+}
+
+
+.latexmath-mathblock {
+	direction: ltr;
+	text-align: unset;
+	font-family: "Segoe UI" , tahoma !important;
+}
+
+/* QA */
+.post-text , .summary h3 , #content a , .excerpt , #question-header h1 {
+    direction: rtl;
+}
+.fr {
+    float: left;
+}
